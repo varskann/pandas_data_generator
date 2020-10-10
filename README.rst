@@ -1,6 +1,6 @@
 Randen: Random DataFrame Generator
 ==================================
-.. image:: https://raw.githubusercontent.com/varskann/randen/main/docs/source/_static/randen.PNG
+.. image:: https://raw.githubusercontent.com/varskann/randen/master/docs/source/_static/randen.PNG
 
 
 **Randen** is a minimal utility module for generating Pandas dataframes
