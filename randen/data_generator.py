@@ -42,7 +42,9 @@ logger = logging.getLogger(__appname__)
 
 class DataFrameGenerator:
     """Dataframe Generator class
+
     Usage:
+    -----
         dfg = DataFrameGenerator()
         df = get_dataframe(nrows=10, ctypes=[str, int, float])
         ...
@@ -54,14 +56,23 @@ class DataFrameGenerator:
                         Float  float64
                         dtype: object
 
+
     Supported APIs:
+    ---------------
         dfg.get_dataframe(...)
+
         dfg.get_integer_dataframe(...)
+
         dfg.get_float_dataframe(...)
+
         dfg.get_string_dataframe(...)
+
         dfg.get_char_dataframe(...)
+
         dfg.get_dates_dataframe(...)
+
         dfg.get_bool_dataframe(...)
+
     """
     def __init__(self):
         self._numrows = None

@@ -77,14 +77,6 @@ optional = false
 python-versions = "*"
 
 [[package]]
-name = "cmake"
-version = "3.18.2.post1"
-description = "CMake is an open-source, cross-platform family of tools designed to build, test and package software"
-category = "main"
-optional = false
-python-versions = "*"
-
-[[package]]
 name = "colorama"
 version = "0.4.3"
 description = "Cross-platform colored terminal text."
@@ -540,7 +532,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "cb9d10907785931114e7b1096053c3bbaf32a27fa775ef2dba81c06a1e7f39a1"
+content-hash = "b86132649e4621998eb171df4b09a44fda296bf2591cb51bb45f69cb1d5fcde0"
 
 [metadata.files]
 alabaster = [
@@ -574,20 +566,6 @@ certifi = [
 chardet = [
     {file = "chardet-3.0.4-py2.py3-none-any.whl", hash = "sha256:fc323ffcaeaed0e0a02bf4d117757b98aed530d9ed4531e3e15460124c106691"},
     {file = "chardet-3.0.4.tar.gz", hash = "sha256:84ab92ed1c4d4f16916e05906b6b75a6c0fb5db821cc65e70cbd64a3e2a5eaae"},
-]
-cmake = [
-    {file = "cmake-3.18.2.post1-py2-none-macosx_10_6_x86_64.whl", hash = "sha256:abeed6b61476e517b53776e025dd33fa0f4c10cfb985ced346b895075a31db79"},
-    {file = "cmake-3.18.2.post1-py2-none-manylinux1_i686.whl", hash = "sha256:59c167b260a9eb76ef216ea6b1916d607cf467b9a83f2c7e585760cc87162291"},
-    {file = "cmake-3.18.2.post1-py2-none-manylinux1_x86_64.whl", hash = "sha256:e0b81c4efd0ddef3e7705d1d93bc8d31ba6603da83cdfd617f879ab3dcb462ac"},
-    {file = "cmake-3.18.2.post1-py2-none-win32.whl", hash = "sha256:fc503362b9a1c71d329b52096be1298f37884cf8582c32636416fbfa8eed7160"},
-    {file = "cmake-3.18.2.post1-py2-none-win_amd64.whl", hash = "sha256:b61184b90d4c70e7f892fe16b44d5426688bb98fc1ec640880f86dd1841cd9e6"},
-    {file = "cmake-3.18.2.post1-py3-none-macosx_10_6_x86_64.whl", hash = "sha256:dfa3b3c28f34bd65d1862186f14e87eb84551866948acc8e876762e70a8bd58d"},
-    {file = "cmake-3.18.2.post1-py3-none-manylinux1_i686.whl", hash = "sha256:828b9918fc97c68e8491221bf9ba684936e6d881848b30741580ec0239c3237c"},
-    {file = "cmake-3.18.2.post1-py3-none-manylinux1_x86_64.whl", hash = "sha256:f5839595152154467f7fde1ddab15628bdf927a9c5671918764a90cd57dd25b4"},
-    {file = "cmake-3.18.2.post1-py3-none-manylinux2014_aarch64.whl", hash = "sha256:39bbeeb0ee8620913b5e60403ee1603a27c2177b2dda4f5a6c9e0e7af9e29774"},
-    {file = "cmake-3.18.2.post1-py3-none-win32.whl", hash = "sha256:3ea8bbcdce3364c23e0f252ce792a96c29d1ed29861c7b275a27fe832714889d"},
-    {file = "cmake-3.18.2.post1-py3-none-win_amd64.whl", hash = "sha256:d3f21b880f3f5028629201275b6bb97bbc4fa288467b641a34fb3e4c3161fb00"},
-    {file = "cmake-3.18.2.post1.tar.gz", hash = "sha256:e8da3c9e6ed6d460965e88937ca6e4d91205a4341a8cd316082c09050f1b0822"},
 ]
 colorama = [
     {file = "colorama-0.4.3-py2.py3-none-any.whl", hash = "sha256:7d73d2a99753107a36ac6b455ee49046802e59d9d076ef8e47b61499fa29afff"},

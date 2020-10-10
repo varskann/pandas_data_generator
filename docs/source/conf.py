@@ -69,6 +69,6 @@ html_static_path = ['_static']
 
 autodoc_member_order = 'groupwise'
 
-#intersphinx_mapping = {'https://docs.python.org', True}
+intersphinx_mapping = {'https://docs.python.org/': None}
 
 todo_inclulude_todos = True

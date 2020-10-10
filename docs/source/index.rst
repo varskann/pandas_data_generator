@@ -8,8 +8,8 @@ Welcome to Randen's documentation!
 .. include:: ../../README.rst
 
 .. toctree::
-   :maxdepth: 3
-   :caption: Contents:
+   :maxdepth: 2
+   :caption: Randen: Random Generator
 
    api
 
