@@ -1,9 +1,13 @@
 [tool.poetry]
 name = "randen"
-version = "0.1.0"
+version = "1.0.0"
 description = "Random dataframe generator"
 authors = ["Kanishk Varshney <varskann1993@gmail.com>"]
-license = "MIT License"
+license = "MIT"
+readme = "README.rst"
+homepage = "https://github.com/varskann/randen"
+repository = "https://github.com/varskann/randen"
+keywords = ["pandas", "random", "generator"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
@@ -12,6 +16,9 @@ pytest = "^6.1.1"
 tox = "^3.20.0"
 pylint = "^2.6.0"
 numpy = "^1.19.2"
+Sphinx = "^3.2.1"
+sphinx-rtd-theme = "^0.5.0"
+cmake = "^3.18.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.1.1"
